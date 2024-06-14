@@ -17,23 +17,22 @@ That will reproduce the entire analysis and produce a plot of the fit as well.
 
 ### 1) the fitted parameters:
 
-========================================================================
+________________________________________________________________________
+
 
 Model TBabs<1>(bbody<2> + powerlaw<3>) Source No.: 1   Active/On
 
 Model Model Component  Parameter  Unit     Value
 
- par  comp
+     1    TBabs      nH         10^22    6.83141      +/-  0.358629     
 
-   1    1   TBabs      nH         10^22    6.83141      +/-  0.358629     
+     2    bbody      kT         keV      1.84437      +/-  4.01336E-02  
 
-   2    2   bbody      kT         keV      1.84437      +/-  4.01336E-02  
+     3    bbody      norm                2.68085E-02  +/-  6.29378E-04  
 
-   3    2   bbody      norm                2.68085E-02  +/-  6.29378E-04  
-
-   4    3   powerlaw   PhoIndex            3.70567      +/-  0.283101   
+     4    powerlaw   PhoIndex            3.70567      +/-  0.283101   
   
-   5    3   powerlaw   norm                2.14402      +/-  0.678852   
+     5   powerlaw   norm                2.14402      +/-  0.678852   
   
 ________________________________________________________________________
 
@@ -42,6 +41,9 @@ Fit statistic  : Chi-Squared                  956.83     using 889 bins.
 
 Test statistic : Chi-Squared                  956.83     using 889 bins.
  Null hypothesis probability of 4.43e-02 with 884 degrees of freedom
+
+________________________________________________________________________
+
 
  Parameter   Confidence Range (1)
 
@@ -57,19 +59,18 @@ Test statistic : Chi-Squared                  956.83     using 889 bins.
 
 ### 2) the fitted flux:
 
-========================================================================
+________________________________________________________________________
+
 
 Model TBabs<1>*cflux<2>(bbody<3> + powerlaw<4>) Source No.: 1   Active/On
 
 Model Model Component  Parameter  Unit     Value
 
- par  comp
+     2   cflux      Emin       keV      0.500000     frozen
 
-   2    2   cflux      Emin       keV      0.500000     frozen
+     3   cflux      Emax       keV      10.0000      frozen
 
-   3    2   cflux      Emax       keV      10.0000      frozen
-
-   4    2   cflux      lg10Flux   cgs      -8.07877     +/-  0.121742    
+     4   cflux      lg10Flux   cgs      -8.07877     +/-  0.121742    
  
 ________________________________________________________________________
 
