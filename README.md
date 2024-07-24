@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/815022389.svg)](https://zenodo.org/doi/10.5281/zenodo.12806381)
+
 # Analysis reproduction repository for "The variable radio jet of the accreting neutron star the Rapid Burster"
 
 ![Light curves](NOTEBOOKS/Figure4.png?raw=true "Light curves")
